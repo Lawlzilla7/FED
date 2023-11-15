@@ -4,12 +4,6 @@
 *, *::after, *::before {
   box-sizing:border-box;  
 }
-
-
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -26,6 +20,24 @@
 /****************/
 /* JOUW STYLING */
 /****************/
+	
+Header{
+	background-color:rgb(8, 8, 8);
+	position:absolute;
+	top: 0;
+	left: 0;
 
-/* jouw code */
-
+	align-items: center;
+    display: flex;
+    height: 69px;
+    margin: 0 auto;
+    padding: 0 16px;
+    width: 100%;
+}
+header > ul{
+	display: flex;
+	flex-direction: row;
+	gap: 1em;
+	color: white;
+	list-style-type: none;
+}
