@@ -40,12 +40,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://fallout.bethesda.net/en/apps
   
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Fallout | Bethesda.net
-  
   <img src="readme-images\fallout.bethesda.net_en_games_fallout-4.png" width="375px" alt="Fallout 4 pagina op bethesda.net">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Fallout | Bethesda.net apps
   <img src="readme-images\fallout.bethesda.net_en_apps.png" width="375px" alt="Apps pagina voor Fallout 4 op bethesda.net">
  
 </details>
