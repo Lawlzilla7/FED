@@ -10,19 +10,24 @@
 
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+	<script src="./scripts/script.js"></script>
 </head>
 
 <body>
 	<Header>
-		<ul>
-			<li>Games</li>
-			<li>Fallout 76</li>
-			<li>Expansions</li>
-			<li>Community</li>
-			<li>Apps</li>
-		</ul>
-	</Header>
-
+		<nav>
+		  <img src="./images/franchise-icon-fallout-00bd59a8.svg" alt="Fallout logo">
+		  <button class="MenuButton" onclick="OpenMenu()"></button>
+		  <ul class="Content">
+			<li class="Underline">Vault tec is proud to present</li>
+			<li class="UnderlineSmall"><a href="#">Home</a></li>
+			<li class="UnderlineSmall"><a href="#">About</a></li>
+			<li class="UnderlineSmall"><a href="#">Contact</a></li>
+		  </ul>
+		</nav>
+		 
+	  </Header>
+	
 	<Main>
 		<!-- <h1>Howdy FED2324</h1> -->
 
@@ -36,3 +41,12 @@
 
 </html>
 
+
+		<!-- <button class="MenuButton"></button>
+		<ul>
+			<li>Games</li>
+			<li>Fallout 76</li>
+			<li>Expansions</li>
+			<li>Community</li>
+			<li>Apps</li>
+		</ul> -->
