@@ -5,6 +5,8 @@
 *::after,
 *::before {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 /*********************/
@@ -23,10 +25,15 @@
 /****************/
 /* JOUW STYLING */
 /****************/
-body{
+body {
 	background-image: url("../images/noise-882e9ee7.png");
 	background-size: 50%;
 	background-repeat: repeat;
+}
+
+/*#region Nav*/
+header {
+	margin-bottom: 69px;
 }
 
 nav {
@@ -43,6 +50,7 @@ nav {
 	margin: 0 auto;
 	padding: 0 16px;
 	width: 100%;
+	z-index: 99;
 }
 
 nav>ul {
@@ -50,10 +58,10 @@ nav>ul {
 	list-style-type: none;
 }
 
-.Content li a{
+.NavContent li a {
 	font-size: 1em;
 	text-decoration: none;
-	color:white;
+	color: white;
 }
 
 nav>img {
@@ -68,44 +76,101 @@ nav .MenuButton {
 	aspect-ratio: 1 / 1;
 }
 
-.Content{
-    display: none;
+.NavContent {
+	display: none;
 	grid-template: 0fr;
 	gap: 2em;
-
-    margin-top: 69px;
-	padding-top: 2em;
 	
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
+	padding-left: 10%;
+	padding-right: 10%;
 
-    max-height: 100vh;
+	margin-top: 69px;
+	padding-top: 2em;
 
-    overflow: hidden;
-    position: absolute;
-    align-items: center;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgb(0, 0, 0);
+
+	max-height: 100vh;
+
+	overflow: hidden;
+	position: absolute;
+	align-items: center;
 	padding-bottom: 100vh;
-
 }
-.Content.is-open {
+
+.NavContent.is-open {
 	grid-template-rows: 1fr;
-  }
-  
+}
 
-.Content li
-{
-	width: 80vw;
+
+.NavContent li, .Underline, .UnderlineSmall{
 	align-self: center;
-}
-.Underline
-{
-	border-bottom: white 2px solid;
+	text-align: center;
 }
 
-.UnderlineSmall
-{
-	border-bottom: white 1px solid;
+.Underline {
+	border-bottom: white 8px solid;
 }
 
+.UnderlineSmall {
+	border-bottom: rgba(255, 255, 255, .8) 4px solid;
+}
+
+/*#endregion Nav*/
+
+/* #region Sections */
+.Image-Container
+{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.Big-Image-Full {
+	position: relative;
+
+	object-fit: contain;
+	width: 100%;
+	z-index: 1;
+
+}
+.Centered-Image
+{
+	position: absolute	;
+	object-fit: cover;
+	width: 60%;
+	z-index: 2;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+.About-Fallout{
+	display: flex;
+	flex-direction: column;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.About-Fallout > article
+{
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	align-items: center;
+
+	width: 80%;
+
+	margin-bottom: 20px;
+    margin-left: 1.25em;
+	margin-top: 1em;
+    padding-left: 1.25em;
+	border-left: 2px solid #333333;
+}
+
+/* #endregion Sections */
