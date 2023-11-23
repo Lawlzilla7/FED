@@ -195,6 +195,13 @@ nav .MenuButton {
 	font-size: 1.5em;
 	border: none;
 }
+.PegiRating
+{
+	height: 8em;
+	object-fit: contain;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
 
 .Consoles {
 	display: flex;
@@ -251,11 +258,24 @@ nav .MenuButton {
 	overflow-x: auto;
 }
 
+.Slides  h3, .Slides  p
+{
+	color: white;
+	padding-bottom: .2em;
+}
+
 .Slides img
 {
 	object-fit: contain;
 	height: 8em;
+	margin-bottom: 3em;
 }
-
+#slide-1, #slide-2, #slide-3,#slide-4, #slide-5 
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: white;
+}  
 
 /* #endregion Carrousel */
