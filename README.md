@@ -82,7 +82,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Begonnen met opzet van pagina en als allereerste een hamburger menu in de nav
 
 
   ### Agenda voor meeting
@@ -115,7 +115,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Verder gegaan met nav menu en begonnen aan content verwerken met als allereerste de about fallout section. 
+  geen uitdagingen op misschien de lijn naast de tekst na.
 
 
   ### Agenda voor meeting
