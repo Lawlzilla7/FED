@@ -80,7 +80,7 @@ nav .MenuButton {
 	display: none;
 	grid-template: 0fr;
 	gap: 2em;
-	
+
 	padding-left: 10%;
 	padding-right: 10%;
 
@@ -105,7 +105,9 @@ nav .MenuButton {
 }
 
 
-.NavContent li, .Underline, .UnderlineSmall{
+.NavContent li,
+.Underline,
+.UnderlineSmall {
 	align-self: center;
 	text-align: center;
 }
@@ -121,8 +123,7 @@ nav .MenuButton {
 /*#endregion Nav*/
 
 /* #region Sections */
-.Image-Container
-{
+.Image-Container {
 	position: relative;
 	top: 0;
 	left: 0;
@@ -136,9 +137,9 @@ nav .MenuButton {
 	z-index: 1;
 
 }
-.Centered-Image
-{
-	position: absolute	;
+
+.Centered-Image {
+	position: absolute;
 	object-fit: cover;
 	width: 60%;
 	z-index: 2;
@@ -147,18 +148,17 @@ nav .MenuButton {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	
+
 }
 
-.About-Fallout{
+.About-Fallout {
 	display: flex;
 	flex-direction: column;
 	margin-left: 1em;
 	margin-right: 1em;
 }
 
-.About-Fallout > article
-{
+.About-Fallout>article {
 	display: flex;
 	flex-direction: column;
 	gap: 1em;
@@ -167,10 +167,93 @@ nav .MenuButton {
 	width: 80%;
 
 	margin-bottom: 20px;
-    margin-left: 1.25em;
+	margin-left: 1.25em;
 	margin-top: 1em;
-    padding-left: 1.25em;
-	border-left: 2px solid #333333;
+	padding-left: 1.25em;
+	border-left: 2px solid #818181;
+}
+
+
+.About-Fallout>h1 {
+	font-size: 1em;
+	margin-bottom: 0em;
+	margin-top: 1em;
+	font-weight: lighter;
+}
+
+.About-Fallout>h3 {
+	font-size: 2.5em;
+	margin-top: 0.2em;
+	font-weight: bold;
+}
+
+.BuyButton {
+	background-color: #ddb724;
+	padding: 0.8em;
+	font-size: 1.5em;
+	border: none;
+}
+
+.Consoles {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.Consoles img {
+	object-fit: contain;
+	height: 1.5em;
+	filter: invert();
+}
+
+
+.Features {
+	padding-top: 3em;
+	background-color: black;
+
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.Features h2 {
+	color: white;
+	border-top: white solid 1px;
+	border-bottom: white solid 1px;
+	padding-left: 0.5em;
+	font-size: 2em;
+	padding-top: 0.2em;
+	padding-bottom: .2em;
+	margin-bottom: 1em;
 }
 
 /* #endregion Sections */
+/* #region Carrousel */
+.Carrousel
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Slider{
+	width: auto;
+	text-align: center;
+	overflow: hidden;
+}
+.Slides
+{
+	width: 100%;
+	text-align: center;
+
+	overflow-x: auto;
+}
+
+.Slides img
+{
+	object-fit: contain;
+	height: 8em;
+}
+
+
+/* #endregion Carrousel */
