@@ -71,9 +71,11 @@ nav>img {
 
 nav .MenuButton {
 	margin-left: auto;
-	background-color: #eee;
-	height: 22px;
+	background-color: transparent;
+	height: 3em;
 	aspect-ratio: 1 / 1;
+	border: none;
+	filter: invert();
 }
 
 .NavContent {
