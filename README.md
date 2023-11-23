@@ -54,6 +54,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
   Link naar test
+  <br>
   https://docs.google.com/document/d/152VWy9axcYVYJL9g7FBjnwfO5Nzs3bG4XXyLcdn5mAI/edit?usp=sharing 
   
   ### Bevindingen
