@@ -237,45 +237,65 @@ nav .MenuButton {
 }
 
 /* #endregion Sections */
-/* #region Carrousel */
-.Carrousel
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
+/* #region Caroussel */
 .Slider{
 	width: auto;
-	text-align: center;
-	overflow: hidden;
+	height: 25em;
+	display: flex;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	scroll-behavior: smooth;
 }
-.Slides
-{
+
+.Slide{
+	width: auto;
+	flex-shrink: 0;
+	height: 30%;
 	width: 100%;
 	text-align: center;
-
-	overflow-x: auto;
+}
+.Slide > div{
+	scroll-snap-align: start;
 }
 
-.Slides  h3, .Slides  p
+.Slider  h3, .Slider  p
 {
 	color: white;
 	padding-bottom: .2em;
 }
 
-.Slides img
+.Slider img
 {
 	object-fit: contain;
 	height: 8em;
 	margin-bottom: 3em;
 }
-#slide-1, #slide-2, #slide-3,#slide-4, #slide-5 
+.Slider > a
 {
 	display: flex;
 	justify-content: center;
-	flex-direction: column;
+	flex-direction: row;
 	background-color: white;
+	height: 1em;
 }  
+
+.CarousselButtons > a{
+	height: 2em;
+	aspect-ratio: 1 / 1;
+	border: white 1px solid;
+	
+
+	border-radius: 50%;
+	
+	margin: 0.5em;
+	margin-bottom: 0;
+}
+
+.CarousselButtons
+ {
+	display: flex;
+	justify-content: center;
+	
+ }
 
 /* #endregion Carrousel */
