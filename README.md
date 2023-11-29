@@ -121,7 +121,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Html code van de features section, Voor de css check mijn commit: 0a08185
   <img src="readme-images/Featurescode.png" width="375px" alt="html code van features">
 
-    Html code van de add ons section, Voor de css check mijn commit: b57a362
+  Html code van de add ons section, Voor de css check mijn commit: b57a362
   <img src="readme-images/Add-ons-code.png" width="375px" alt="html code van add ons section">
 
   ### Agenda voor meeting
