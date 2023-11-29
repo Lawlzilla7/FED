@@ -83,7 +83,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   Begonnen met opzet van pagina en als allereerste een hamburger menu in de nav
-
+  Verder gegaan met nav menu en begonnen aan content verwerken met als allereerste de about fallout section. 
+  geen uitdagingen op misschien de lijn naast de tekst na.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -115,9 +116,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Verder gegaan met nav menu en begonnen aan content verwerken met als allereerste de about fallout section. 
-  geen uitdagingen op misschien de lijn naast de tekst na.
+  Heb de Features section afgemaakt met een css caroussel en heb ook de add on content section afgemaakt. 
 
+  Html code van de features section, Voor de css check mijn commit: 0a08185
+  <img src="readme-images/Featurescode.png" width="375px" alt="html code van features">
+
+    Html code van de add ons section, Voor de css check mijn commit: b57a362
+  <img src="readme-images/Add-ons-code.png" width="375px" alt="html code van add ons section">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
