@@ -117,6 +117,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   Heb de Features section afgemaakt met een css caroussel en heb ook de add on content section afgemaakt. 
+  Alles ging soepel maar de caroussel werkt niet helemaal naar wensen zoals de bolletjes blijven niet wit wanneer je er op drukt en hij springt naar de knoppen ipv de top van de section.
 
   Html code van de features section, Voor de css check mijn commit: 0a08185
   <img src="readme-images/Featurescode.png" width="375px" alt="html code van features">
