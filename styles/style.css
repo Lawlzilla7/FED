@@ -18,7 +18,9 @@
 	--color-background: #eee;
 }
 
-
+li{
+	list-style: none;
+}
 
 
 
@@ -29,6 +31,8 @@ body {
 	background-image: url("../images/noise-882e9ee7.png");
 	background-size: 50%;
 	background-repeat: repeat;
+	background-color: white;
+	background-blend-mode: darken;
 }
 
 /*#region Nav*/
@@ -295,7 +299,7 @@ nav .MenuButton {
 	justify-content: center;
 }
 
-.CarouselButtons a:target {
+.CarouselButtons a:active {
 	height: 2.2em;
 	aspect-ratio: 1 / 1;
 	background-color: white;
@@ -319,7 +323,7 @@ nav .MenuButton {
 
 .Addon-Content img {
 	object-fit: contain;
-	width: 90%;
+	width: 100%;
 }
 
 select {
@@ -334,8 +338,51 @@ select {
 	text-transform: uppercase;
 	font-weight: 700;
 
-	padding-bottom: 4px;
 	color: #111;
 }
 
 /* #endregion Add-on-content */
+/* #region Media */
+.Media
+{
+	padding: 3em 1em 2em 1em;
+}
+.Media h2{
+	color: rgb(0, 0, 0);
+	border-top: rgb(0, 0, 0) solid 1px;
+	border-bottom: rgb(0, 0, 0) solid 1px;
+	padding-left: 0.5em;
+	font-size: 2em;
+	padding-top: 0.2em;
+	padding-bottom: .2em;
+	margin-bottom: 1em;
+}
+
+.Media select{
+	background-color: #111;
+	color: white;
+	width: 100%;
+	text-align: left;
+	padding-left: .5em;
+	margin-bottom: 2em;
+}
+.Media option
+{
+	text-transform: uppercase;
+}
+
+.MediaContent-Featured{
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.MediaContent-Featured img , .MediaContent-Featured iframe{
+	object-fit: contain;
+	width: 100%;
+}
+
+.MediaContent-Featured iframe{
+	aspect-ratio: 16 / 9;
+}
+/* #endregion Media */
