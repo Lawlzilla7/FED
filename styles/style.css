@@ -124,7 +124,7 @@ nav .MenuButton {
 
 /*#endregion Nav*/
 
-/* #region Sections */
+/* #region About */
 .Image-Container {
 	position: relative;
 	top: 0;
@@ -195,8 +195,8 @@ nav .MenuButton {
 	font-size: 1.5em;
 	border: none;
 }
-.PegiRating
-{
+
+.PegiRating {
 	height: 8em;
 	object-fit: contain;
 	margin-bottom: 2em;
@@ -216,16 +216,18 @@ nav .MenuButton {
 	filter: invert();
 }
 
+/* #endregion About */
 
-.Features {
-	padding-top: 3em;
+/* #region Features */
+.Features,
+.Addons {
 	background-color: black;
 
-	padding-left: 1em;
-	padding-right: 1em;
+	padding: 3em 1em 2em 1em;
 }
 
-.Features h2 {
+.Features h2,
+.Addons h2 {
 	color: white;
 	border-top: white solid 1px;
 	border-bottom: white solid 1px;
@@ -236,66 +238,104 @@ nav .MenuButton {
 	margin-bottom: 1em;
 }
 
-/* #endregion Sections */
-/* #region Caroussel */
-.Slider{
+.Slider {
 	width: auto;
-	height: 25em;
+	height: 20em;
 	display: flex;
-	overflow-x: auto;
+	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
 	scroll-behavior: smooth;
 }
 
-.Slide{
+.Slide {
 	width: auto;
 	flex-shrink: 0;
 	height: 30%;
 	width: 100%;
 	text-align: center;
-}
-.Slide > div{
-	scroll-snap-align: start;
+	scroll-snap-align: end;
 }
 
-.Slider  h3, .Slider  p
-{
+.Slider h3,
+.Slider p,
+.Addon-Content h3,
+.Addon-Content p {
 	color: white;
 	padding-bottom: .2em;
+	text-align: center;
 }
 
-.Slider img
-{
+.Slider img {
 	object-fit: contain;
 	height: 8em;
 	margin-bottom: 3em;
 }
-.Slider > a
-{
+
+.Slider a {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
 	background-color: white;
 	height: 1em;
-}  
+}
 
-.CarousselButtons > a{
+.CarouselButtons>a {
 	height: 2em;
 	aspect-ratio: 1 / 1;
 	border: white 1px solid;
-	
 
 	border-radius: 50%;
-	
+
 	margin: 0.5em;
 	margin-bottom: 0;
 }
 
-.CarousselButtons
- {
+.CarouselButtons {
 	display: flex;
 	justify-content: center;
-	
- }
+}
 
-/* #endregion Carrousel */
+.CarouselButtons a:target {
+	height: 2.2em;
+	aspect-ratio: 1 / 1;
+	background-color: white;
+}
+
+/* #endregion Features */
+
+/* #region Add-on-content*/
+.Addon-Content {
+	display: flex;
+	flex-direction: column;
+}
+
+.Addon-Content li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1em;
+	padding: 4em 1em 2em;
+}
+
+.Addon-Content img {
+	object-fit: contain;
+	width: 90%;
+}
+
+select {
+	width: 10em;
+	height: 2em;
+	border-radius: 0%;
+	text-align: center;
+	font-size: large;
+	border: 0em solid transparent;
+	border-right: 1em solid transparent;
+
+	text-transform: uppercase;
+	font-weight: 700;
+
+	padding-bottom: 4px;
+	color: #111;
+}
+
+/* #endregion Add-on-content */
