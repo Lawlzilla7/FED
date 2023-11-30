@@ -15,27 +15,25 @@ function OpenMenu() {
   }
 }
 
-MediaWindow(document.querySelector('#MediaSelect')).ready(function () {
 
-  MediaWindow(".Media-Content").hide();
 
-  MediaWindow("#MediaSelect-Featured").show();
+function SwitchMediaContent() {
+  // Get all the divs
+  var divs = document.getElementsByClassName('Media-Content');
 
-  MediaWindow("#MediaSelect").change(function () {
-    MediaWindow("#Media-Content").hide();
+  // Hide all the divs
+  for (var i = 0; i < divs.length; i++) {
+    divs[i].style.display = 'none';
+  }
 
-    MediaWindow('#' + MediaWindow(this).val().show);
-  });
+  // Show the selected div
+  var selectedDiv = document.getElementById('MediaSelect-' + this.value);
+  if (selectedDiv) {
+    selectedDiv.style.display = 'block';
+  }
+}
 
-})
+// Attach the function to the 'change' event of the dropdown
+document.getElementById('MediaSelect').addEventListener('change', SwitchMediaContent);
 
-// function ButtonActive() {
-//   CarousselButtonsList.array.forEach(element => {
-//   });(CarousselButton => {
-//     CarousselButton.addeventlistener('click', () => {
-//       document.querySelector('.CarouselButtonActive').classList.
-//         remove('.CarouselButtonActive');
-//         CarousselButton.classList.add('.CarouselButtonActive');
-//     })
-//   });
-// }
+

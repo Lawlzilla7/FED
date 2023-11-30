@@ -34,10 +34,10 @@ body {
 	background-repeat: repeat;
 	background-color: white;
 	background-blend-mode: darken;
-	
+	scroll-padding-top: 500em;
 }
 main{
-	scroll-padding-top: 10em;
+	
 }
 
 /*#region Nav*/
@@ -233,6 +233,7 @@ nav .MenuButton {
 	background-color: black;
 
 	padding: 3em 1em 2em 1em;
+	
 }
 
 .Features h2,
@@ -256,6 +257,8 @@ nav .MenuButton {
 	
 	-webkit-overflow-scrolling: touch;
 	scroll-behavior: smooth;
+	
+	scroll-padding-top: 50em;
 }
 
 .Slide {
@@ -392,4 +395,9 @@ select {
 .MediaContent-Featured iframe{
 	aspect-ratio: 16 / 9;
 }
+
+.Media-Content{
+	display: none;
+}
+
 /* #endregion Media */
