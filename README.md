@@ -57,7 +57,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://docs.google.com/document/d/152VWy9axcYVYJL9g7FBjnwfO5Nzs3bG4XXyLcdn5mAI/edit?usp=sharing 
   
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Deze website gebruikt heel veel classes die maar 1 gebruikt worden, Img hebben geen alt, Geen dark en lightmode en de headings springen heel veel heen en slaan headings over.
 
 </details>
 
