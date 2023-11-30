@@ -258,6 +258,7 @@ nav .MenuButton {
 	height: 30%;
 	width: 100%;
 	text-align: center;
+	scroll-snap-align: start;
 }
 
 .Slider h3,
