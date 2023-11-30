@@ -15,6 +15,20 @@ function OpenMenu() {
   }
 }
 
+MediaWindow(document.querySelector('#MediaSelect')).ready(function () {
+
+  MediaWindow(".Media-Content").hide();
+
+  MediaWindow("#MediaSelect-Featured").show();
+
+  MediaWindow("#MediaSelect").change(function () {
+    MediaWindow("#Media-Content").hide();
+
+    MediaWindow('#' + MediaWindow(this).val().show);
+  });
+
+})
+
 // function ButtonActive() {
 //   CarousselButtonsList.array.forEach(element => {
 //   });(CarousselButton => {

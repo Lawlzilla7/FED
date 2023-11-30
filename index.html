@@ -14,7 +14,7 @@
 </head>
 
 <body>
-	<Header>
+	<header>
 		<nav>
 			<img src="./images/franchise-icon-fallout-00bd59a8.svg" alt="Fallout logo">
 			<button class="MenuButton" onclick="OpenMenu()"> <img id="Burger" src="./images/Burger.svg" alt=""></button>
@@ -30,9 +30,9 @@
 			</ul>
 		</nav>
 
-	</Header>
+	</header>
 
-	<Main>
+	<main>
 		<section class="Image-Container">
 			<img class="Big-Image-Full" src="./images/HeadIMG_1.png"
 				alt="Girl with spacesuit from fallout wielding a thrist zapper from nuka world">
@@ -198,7 +198,7 @@
 		<section class="Media">
 			<h2>Media</h2>
 
-			<select name="ORDER NOW">
+			<select id="MediaSelect" name="Featured">
 				<option value="Featured">Featured</option>
 				<option value="Screenshots">Screenshots</option>
 				<option value="Concept art">Concept art</option>
@@ -206,28 +206,47 @@
 				<option value="Wallpapers">Wallpapers</option>
 			</select>
 
-			<ul class="MediaContent-Featured">
-				<li>
-					<img src="./images/MediaDepartement.png"
-						alt="Vault tec's media Media Departement presents our finest works">
-				</li>
-				<li>
-					<iframe width="560" height="200" src="https://www.youtube.com/embed/DIneiOpuS2M?si=BryMLN7pF7lJyP1P"
-						title="YouTube video player" frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-						allowfullscreen></iframe>
-				</li>
-				<li>
-					<iframe width="560" height="200" src="https://www.youtube.com/embed/K5uFXByM1UU?si=OI6JSdfwSljM6aRT"
-						title="YouTube video player" frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-						allowfullscreen></iframe>
-				</li>
-			</ul>
-		</section>
-	</Main>
 
-	<Footer></Footer>
+			<div id="MediaSelect-Featured" class="Media-Content">
+				<ul class="MediaContent-Featured">
+					<li>
+						<img src="./images/MediaDepartement.png"
+							alt="Vault tec's media Media Departement presents our finest works">
+					</li>
+					<li>
+						<iframe width="560" height="200"
+							src="https://www.youtube.com/embed/DIneiOpuS2M?si=BryMLN7pF7lJyP1P"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							allowfullscreen></iframe>
+					</li>
+					<li>
+						<iframe width="560" height="200"
+							src="https://www.youtube.com/embed/K5uFXByM1UU?si=OI6JSdfwSljM6aRT"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							allowfullscreen></iframe>
+					</li>
+				</ul>
+			</div>
+			<div id="MediaSelect-Screenshots">
+
+			</div>
+			<div id="MediaSelect-Concept">
+
+			</div>
+			<div id="MediaSelect-Videos">
+
+			</div>
+			<div id="MediaSelect-Wallpapers">
+
+			</div>
+
+
+		</section>
+	</main>
+
+	<footer></footer>
 
 
 	<script defer src="scripts/script.js"></script>
