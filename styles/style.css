@@ -18,7 +18,7 @@
 	--color-background: #eee;
 }
 
-ul{
+ul {
 	list-style: none;
 	padding: 0;
 }
@@ -36,9 +36,8 @@ body {
 	background-blend-mode: darken;
 	scroll-padding-top: 500em;
 }
-main{
-	
-}
+
+main {}
 
 /*#region Nav*/
 header {
@@ -233,7 +232,7 @@ nav .MenuButton {
 	background-color: black;
 
 	padding: 3em 1em 2em 1em;
-	
+
 }
 
 .Features h2,
@@ -254,10 +253,10 @@ nav .MenuButton {
 	display: flex;
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
-	
+
 	-webkit-overflow-scrolling: touch;
 	scroll-behavior: smooth;
-	
+
 	scroll-padding-top: 50em;
 }
 
@@ -353,11 +352,11 @@ select {
 
 /* #endregion Add-on-content */
 /* #region Media */
-.Media
-{
+.Media {
 	padding: 3em 1em 2em 1em;
 }
-.Media h2{
+
+.Media h2 {
 	color: rgb(0, 0, 0);
 	border-top: rgb(0, 0, 0) solid 1px;
 	border-bottom: rgb(0, 0, 0) solid 1px;
@@ -368,7 +367,7 @@ select {
 	margin-bottom: 1em;
 }
 
-.Media select{
+.Media select {
 	background-color: #111;
 	color: white;
 	width: 100%;
@@ -376,28 +375,59 @@ select {
 	padding-left: .5em;
 	margin-bottom: 2em;
 }
-.Media option
-{
+
+.Media option {
 	text-transform: uppercase;
 }
 
-.MediaContent-Featured{
+.MediaContent-Featured {
 	display: flex;
 	flex-direction: column;
 	gap: 1em;
 }
 
-.MediaContent-Featured img , .MediaContent-Featured iframe{
+.MediaContent-Featured img,
+.MediaContent-Featured iframe {
 	object-fit: contain;
 	width: 100%;
 }
 
-.MediaContent-Featured iframe{
+.MediaContent-Featured iframe {
 	aspect-ratio: 16 / 9;
 }
 
-.Media-Content{
+.Media-Content {
 	display: none;
+}
+
+.Media>.MediaContent-Featured {
+	display: block;
+}
+
+#MediaSelect-Screenshots>ul, #MediaSelect-Wallpapers>ul, #MediaSelect-Concept>ul {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: auto;
+	justify-items: center;
+	row-gap: 1em;
+	column-gap: 0.2em;
+	width: 100%;
+}
+
+#MediaSelect-Screenshots li>img,
+#MediaSelect-Wallpapers li>img,
+#MediaSelect-Concept li>img {
+	position: relative;
+	top: 0;
+	object-fit: cover;
+	width: 100%;
+	transition: 0.2s;
+}
+
+#MediaSelect-Screenshots li>img:hover,
+#MediaSelect-Wallpapers li>img:hover,
+#MediaSelect-Concept li>img:hover {
+	transform: translate(0, -10px);
 }
 
 /* #endregion Media */
