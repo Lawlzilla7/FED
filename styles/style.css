@@ -66,7 +66,8 @@ nav {
 
 	height: 69px;
 	margin: 0 auto;
-	padding: 0 16px;
+	padding: 0 1em;
+	padding-right: 2em;
 	width: 100%;
 	z-index: 99;
 }
@@ -506,7 +507,7 @@ select {
 
 
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 
 	h1,
 	h2,
@@ -539,4 +540,4 @@ select {
 		filter: none;
 	}
 
-}
+} */
