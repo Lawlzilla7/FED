@@ -14,8 +14,10 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text: #111;
-	--color-background: #eee;
+	--color-text-black: rgb(8,8,8); 
+	--color-text-white: #eee; 
+	--color-background-lightmode: #eee;
+	--color-background-darkmode: #000000;
 }
 
 ul {
@@ -32,7 +34,7 @@ body {
 	background-image: url("../images/noise-882e9ee7.png");
 	background-size: 50%;
 	background-repeat: repeat;
-	background-color: white;
+	background-color: var(--color-background);
 	background-blend-mode: darken;
 	scroll-padding-top: 500em;
 }
@@ -288,7 +290,7 @@ nav .MenuButton {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
-	background-color: white;
+	background-color: var(--color-background);
 	height: 1em;
 }
 
@@ -311,7 +313,7 @@ nav .MenuButton {
 .CarouselButtons a:active {
 	height: 2.2em;
 	aspect-ratio: 1 / 1;
-	background-color: white;
+	background-color: var(--color-background);
 }
 
 /* #endregion Features */
@@ -431,3 +433,13 @@ select {
 }
 
 /* #endregion Media */
+
+@media (prefers-color-scheme: dark) {
+	
+	h1,h2,h3,h4,p,article{
+		color: var(--color-text-white);
+	}
+	/* body{
+		background-color: var(--color-background-darkmode);
+	} */
+}
