@@ -153,9 +153,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
-
+  	https://docs.google.com/document/d/1dz-vEOPQcTrGItx6XxtF_ZAf8_3S5cT6nJG3h55ZKs8/edit?usp=sharing Link naar Test 2
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  -Niet alle img hebben een alt. 
+  
+  Slaagt voor bijna alle onderdelen na een paar korte updates zoals alt text toevoegen aan img's en een darkmode die is gebaseerd op de user system settings
 
 </details>
 
@@ -169,7 +171,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Veel werk aan de verschillende onderdelen van de media section zoals het vormgeven van de alle 2 soorten pagina's met 1 stukje voor afbeeldingen en 1 stukje voor videos en afbeelding. 
 
 
   ### Agenda voor meeting

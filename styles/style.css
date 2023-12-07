@@ -438,6 +438,16 @@ select {
 	
 	h1,h2,h3,h4,p,article{
 		color: var(--color-text-white);
+		
+	}
+	body{
+		background-color: var(--color-background-darkmode);
+	}
+
+	.Media h2{
+		color: var(--color-text-white);
+   		border-top: var(--color-text-white) solid 1px;
+    	border-bottom: var(--color-text-white) solid 1px;
 	}
 	/* body{
 		background-color: var(--color-background-darkmode);
