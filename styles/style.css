@@ -371,7 +371,7 @@ select {
 
 .Media select {
 	background-color: #111;
-	color: white;
+	color: var(--color-background-lightmode);
 	width: 100%;
 	text-align: left;
 	padding-left: .5em;
@@ -438,10 +438,13 @@ select {
 	
 	h1,h2,h3,h4,p,article{
 		color: var(--color-text-white);
-		
 	}
 	body{
 		background-color: var(--color-background-darkmode);
+	}
+	.Media select{
+		background-color: var(--color-background-lightmode);
+		color: var(--color-text-black);
 	}
 
 	.Media h2{
@@ -449,7 +452,9 @@ select {
    		border-top: var(--color-text-white) solid 1px;
     	border-bottom: var(--color-text-white) solid 1px;
 	}
-	/* body{
-		background-color: var(--color-background-darkmode);
-	} */
+	.Consoles img
+	{
+		filter: none;
+	}
+
 }
