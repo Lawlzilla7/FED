@@ -14,8 +14,8 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text-black: rgb(8,8,8); 
-	--color-text-white: #eee; 
+	--color-text-black: rgb(8, 8, 8);
+	--color-text-white: #eee;
 	--color-background-lightmode: #eee;
 	--color-background-darkmode: #000000;
 }
@@ -39,13 +39,13 @@ body {
 	scroll-padding-top: 500em;
 }
 
-iframe{
+iframe {
 	width: 310px;
 	height: 200;
 }
 
-.About-Fallout, .Special
-{
+.About-Fallout,
+.Special {
 	padding: 3em 1em 2em 1em;
 }
 
@@ -411,7 +411,9 @@ select {
 	display: block;
 }
 
-#MediaSelect-Screenshots>ul, #MediaSelect-Wallpapers>ul, #MediaSelect-Concept>ul {
+#MediaSelect-Screenshots>ul,
+#MediaSelect-Wallpapers>ul,
+#MediaSelect-Concept>ul {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	grid-template-rows: auto;
@@ -440,54 +442,61 @@ select {
 /* #endregion Media */
 
 /* #region Special*/
-.Special{
+.Special {
 	display: flex;
 	flex-direction: column;
 	gap: 0.5em
 }
-.Special span{
+
+.Special span {
 	color: #ddb724;
 }
-.Special img
-{
+
+.Special img:nth-child(3){
 	z-index: -99;
+	border-bottom: #000000 4px solid;
 }
-.Special div{
+
+.Special div {
 	position: relative;
-    width: 310px;
-    height: 200px;
-    top: -250px;
-    left: 36px;
-    margin-bottom: -11em;
-    z-index: 0;
+	height: 200px;
+	top: -250px;
+	left: 36px;
+	margin-bottom: -11em;
+	z-index: 0;
 }
-.Special h2{
-    color: rgb(0, 0, 0);
-    border-top: rgb(0, 0, 0) solid 1px;
-    border-bottom: rgb(0, 0, 0) solid 1px;
-    padding-left: 0.5em;
-    font-size: 2em;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-    margin-bottom: 1em;
+
+.Special iframe {
+	width: auto;
+}
+
+.Special h2 {
+	color: rgb(0, 0, 0);
+	border-top: rgb(0, 0, 0) solid 1px;
+	border-bottom: rgb(0, 0, 0) solid 1px;
+	padding-left: 0.5em;
+	font-size: 2em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin-bottom: 1em;
 	font-size: 1.5em;
 }
-.Special button
-{
+
+.Special button {
 	height: 2em;
 	font-size: 1.1em;
 	text-align: left;
 	padding-left: 0.5em;
-	background: linear-gradient(to left, white 50%, black 50%) right;
+	background: linear-gradient(to left, transparent 50%, black 50%) right;
 	background-size: 300%;
-	transition: 0.5s ease-out;
+	transition: 0.4s ease-out;
 
 	color: black;
 	border: none;
+
 }
 
-.Special button:focus
-{
+.Special button:focus {
 	background-color: #000000;
 	color: #eee;
 	background-position: left;
@@ -496,27 +505,38 @@ select {
 /* #endregion Special */
 
 
-/* @media (prefers-color-scheme: dark) {
-	
-	h1,h2,h3,h4,p,article{
+
+@media (prefers-color-scheme: dark) {
+
+	h1,
+	h2,
+	h3,
+	h4,
+	p,
+	article {
 		color: var(--color-text-white);
 	}
-	body{
+
+	body {
 		background-color: var(--color-background-darkmode);
 	}
-	.Media select{
+
+	.Media select,
+	.Special button
+	{
 		background-color: var(--color-background-lightmode);
 		color: var(--color-text-black);
 	}
 
-	.Media h2, .Special h2{
+	.Media h2,
+	.Special h2 {
 		color: var(--color-text-white);
-   		border-top: var(--color-text-white) solid 1px;
-    	border-bottom: var(--color-text-white) solid 1px;
+		border-top: var(--color-text-white) solid 1px;
+		border-bottom: var(--color-text-white) solid 1px;
 	}
-	.Consoles img
-	{
+
+	.Consoles img {
 		filter: none;
 	}
 
-} */
+}
