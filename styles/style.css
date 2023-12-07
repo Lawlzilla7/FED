@@ -67,7 +67,6 @@ nav {
 	height: 69px;
 	margin: 0 auto;
 	padding: 0 1em;
-	padding-right: 2em;
 	width: 100%;
 	z-index: 99;
 }
@@ -465,6 +464,7 @@ select {
 	left: 36px;
 	margin-bottom: -11em;
 	z-index: 0;
+	width: 80%;
 }
 
 .Special iframe {
@@ -506,8 +506,8 @@ select {
 /* #endregion Special */
 
 
-
-@media (prefers-color-scheme: dark) {
+/* NightMode */
+/* @media (prefers-color-scheme: dark) {
 
 	h1,
 	h2,
@@ -540,4 +540,4 @@ select {
 		filter: none;
 	}
 
-}
+} */

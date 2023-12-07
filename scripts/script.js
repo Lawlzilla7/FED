@@ -15,7 +15,8 @@ function OpenMenu() {
   }
 }
 
-
+// Attach the function to the 'change' event of the dropdown
+document.getElementById('MediaSelect').addEventListener('change', SwitchMediaContent);
 
 function SwitchMediaContent() {
   // Get all the divs
@@ -33,8 +34,6 @@ function SwitchMediaContent() {
   }
 }
 
-// Attach the function to the 'change' event of the dropdown
-document.getElementById('MediaSelect').addEventListener('change', SwitchMediaContent);
 
 VideoFrame = document.getElementById('Special-Video');
 
