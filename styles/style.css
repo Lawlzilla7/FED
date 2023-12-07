@@ -507,8 +507,7 @@ select {
 
 
 /* NightMode */
-/*  */
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 
 	h1,
 	h2,
@@ -541,4 +540,4 @@ select {
 		filter: none;
 	}
 
-} */
+}
