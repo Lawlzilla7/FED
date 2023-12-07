@@ -172,6 +172,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   Veel werk aan de verschillende onderdelen van de media section zoals het vormgeven van de alle 2 soorten pagina's met 1 stukje voor afbeeldingen en 1 stukje voor videos en afbeelding. 
+  Special section afgemaakt met een klein stukje javascript(Switch case die wisselt van src van de iframe met een id). Wat niet helemaal werkt op dit moment is het positioneren van de video over de afbeelding heen want het moest gehard code worden wat niet ideaal is maar goed genoeg voor deze situatie.
 
 
   ### Agenda voor meeting
@@ -231,9 +232,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://codepen.io/chriscoyier/pen/XwbNwX?editors=1100 Carousel Css
+  2. https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/ 
+  3. https://css-tricks.com/snippets/css/complete-guide-grid/ 
+  4. https://cssgridgarden.com/#nl 
+  5. https://css-tricks.com/dark-modes-with-css/
+  6. https://stackoverflow.com/questions/62835905/javascript-function-to-change-iframe-video 
+  7. https://stackoverflow.com/questions/17212094/fill-background-color-left-to-right-css 
 
 </details>
