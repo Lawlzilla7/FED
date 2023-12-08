@@ -452,24 +452,25 @@ select {
 	color: #ddb724;
 }
 
-.Special img:nth-child(3){
+.Special img:nth-child(3) {
 	z-index: -99;
 	border-bottom: #000000 4px solid;
 }
 
 .Special div {
-    position: relative;
-    height: 200px;
-    top: -250px;
-    left: 36px;
-    margin-bottom: -11em;
-    z-index: 0;
-    width: 80%;
+	position: relative;
+	height: 200px;
+	top: -250px;
+	left: 36px;
+	margin-bottom: -11em;
+	z-index: 0;
+	width: 80%;
 }
 
 .Special iframe {
 	width: 100%;
 }
+
 
 .Special h2 {
 	color: rgb(0, 0, 0);
@@ -523,8 +524,7 @@ select {
 	}
 
 	.Media select,
-	.Special button
-	{
+	.Special button {
 		background-color: var(--color-background-lightmode);
 		color: var(--color-text-black);
 	}
@@ -538,6 +538,10 @@ select {
 
 	.Consoles img {
 		filter: none;
+	}
+
+	.Special img:nth-child(2) {
+		filter: invert();
 	}
 
 }
