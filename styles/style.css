@@ -25,8 +25,11 @@ ul {
 	padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
 
-
+h1,h2,h3,h4,h4{
+	font-family: 'Nunito Sans', sans-serif;
+}
 /****************/
 /* JOUW STYLING */
 /****************/
@@ -45,7 +48,11 @@ iframe {
 }
 
 .About-Fallout,
-.Special {
+.Special,
+.Media,
+.Special,
+.Tips,
+.Addons ,.Features{
 	padding: 3em 1em 2em 1em;
 }
 
@@ -235,10 +242,14 @@ nav .MenuButton {
 /* #endregion About */
 
 /* #region Features */
+.Features
+{
+	padding-top: 2em;
+}
+
 .Features,
 .Addons {
 	background-color: black;
-	padding: 3em 1em 2em 1em;
 
 }
 
@@ -359,10 +370,6 @@ select {
 
 /* #endregion Add-on-content */
 /* #region Media */
-.Media {
-	padding: 3em 1em 2em 1em;
-}
-
 .Media h2 {
 	color: rgb(0, 0, 0);
 	border-top: rgb(0, 0, 0) solid 1px;
@@ -472,7 +479,8 @@ select {
 }
 
 
-.Special h2 {
+.Special h2,
+.Tips h2 {
 	color: rgb(0, 0, 0);
 	border-top: rgb(0, 0, 0) solid 1px;
 	border-bottom: rgb(0, 0, 0) solid 1px;
@@ -504,10 +512,73 @@ select {
 	background-position: left;
 }
 
+.Special button:hover {
+	background-color: #000000;
+	color: #eee;
+	background-position: left;
+}
+
 /* #endregion Special */
 
+/* #region Tips*/
+.Tips {
+	display: flex;
+	flex-direction: column;
+	gap: 0em;
+}
 
-/* NightMode */
+.Tips img
+{
+	object-fit: contain;
+	width: 100%;
+}
+.Tips article
+{
+	border: var(--color-background-darkmode) dashed 2px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 1.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	gap: 0.5em;
+}
+
+.Tips h3 {
+	font-size: 5em;
+	text-align: center;
+	color: var(--color-background-lightmode);
+	background-color: var(--color-background-darkmode);
+	width: 80%;
+	align-self: center;
+	background-image: url(../images/texture-noise@1x-cd6c35e3.png);
+	margin-bottom: 0.5em;
+}
+.Tips h4
+{
+	font-size: 0.5em;
+	margin-top: 1em;
+}
+
+.Tips h5{
+	font-size: 1.5em;
+	
+}
+.Tips h5:nth-child(1)
+{
+	padding-top: 1em;
+}
+.Tips article:nth-child(3)
+{
+	border-top: none;
+}
+.Tips h6{
+	font-size: 1em;
+	font-weight: 900;
+}
+/*  #endregion Tips*/
+
+
+/* #region NightMode */
 @media (prefers-color-scheme: dark) {
 
 	h1,
@@ -530,7 +601,8 @@ select {
 	}
 
 	.Media h2,
-	.Special h2 {
+	.Special h2,
+	.Tips h2 {
 		color: var(--color-text-white);
 		border-top: var(--color-text-white) solid 1px;
 		border-bottom: var(--color-text-white) solid 1px;
@@ -543,5 +615,11 @@ select {
 	.Special img:nth-child(2) {
 		filter: invert();
 	}
-
+	.Tips article{
+		border: var(--color-background-lightmode) dashed 2px;
+	}
+	.Tips img{
+		filter: invert()
+	};
 }
+/* #endregion NightMode */

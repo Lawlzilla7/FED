@@ -2,7 +2,7 @@
 console.log("hi");
 
 var Burger = document.getElementById('Burger');
-var CarousselButtonsList = document.querySelector('.CarouselButton');
+// var CarousselButtonsList = document.querySelector('.CarouselButton');
 
 function OpenMenu() {
   var x = document.querySelector(".NavContent");
