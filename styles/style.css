@@ -458,17 +458,17 @@ select {
 }
 
 .Special div {
-	position: relative;
-	height: 200px;
-	top: -250px;
-	left: 36px;
-	margin-bottom: -11em;
-	z-index: 0;
-	width: 80%;
+    position: relative;
+    height: 200px;
+    top: -250px;
+    left: 36px;
+    margin-bottom: -11em;
+    z-index: 0;
+    width: 80%;
 }
 
 .Special iframe {
-	width: auto;
+	width: 100%;
 }
 
 .Special h2 {
