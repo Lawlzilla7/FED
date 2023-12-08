@@ -27,9 +27,14 @@ ul {
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
 
-h1,h2,h3,h4,h4{
+h1,
+h2,
+h3,
+h4,
+h4 {
 	font-family: 'Nunito Sans', sans-serif;
 }
+
 /****************/
 /* JOUW STYLING */
 /****************/
@@ -52,7 +57,8 @@ iframe {
 .Media,
 .Special,
 .Tips,
-.Addons ,.Features{
+.Addons,
+.Features {
 	padding: 3em 1em 2em 1em;
 }
 
@@ -242,8 +248,7 @@ nav .MenuButton {
 /* #endregion About */
 
 /* #region Features */
-.Features
-{
+.Features {
 	padding-top: 2em;
 }
 
@@ -527,13 +532,12 @@ select {
 	gap: 0em;
 }
 
-.Tips img
-{
+.Tips img {
 	object-fit: contain;
 	width: 100%;
 }
-.Tips article
-{
+
+.Tips article {
 	border: var(--color-background-darkmode) dashed 2px;
 	display: flex;
 	flex-direction: column;
@@ -553,30 +557,45 @@ select {
 	background-image: url(../images/texture-noise@1x-cd6c35e3.png);
 	margin-bottom: 0.5em;
 }
-.Tips h4
-{
+
+.Tips h4 {
 	font-size: 0.5em;
 	margin-top: 1em;
 }
 
-.Tips h5{
+.Tips h5 {
 	font-size: 1.5em;
-	
+
 }
-.Tips h5:nth-child(1)
-{
+
+.Tips h5:nth-child(1) {
 	padding-top: 1em;
 }
-.Tips article:nth-child(3)
-{
+
+.Tips article:nth-child(3) {
 	border-top: none;
 }
-.Tips h6{
+
+.Tips h6 {
 	font-size: 1em;
 	font-weight: 900;
 }
+
 /*  #endregion Tips*/
 
+/* #region footer */
+footer {
+	background-color: var(--color-background-lightmode);
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	height: 10em;
+	margin-top: 1em;
+}
+
+/* #endregion footer */
 
 /* #region NightMode */
 @media (prefers-color-scheme: dark) {
@@ -615,11 +634,16 @@ select {
 	.Special img:nth-child(2) {
 		filter: invert();
 	}
-	.Tips article{
+
+	.Tips article {
 		border: var(--color-background-lightmode) dashed 2px;
 	}
-	.Tips img{
+
+	.Tips img {
 		filter: invert()
-	};
+	}
+
+	;
 }
+
 /* #endregion NightMode */
