@@ -154,8 +154,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
   	https://docs.google.com/document/d/1dz-vEOPQcTrGItx6XxtF_ZAf8_3S5cT6nJG3h55ZKs8/edit?usp=sharing \
-    Link naar Test 2
-  ### Bevindingen
+    Link naar Test 2\
+  ### Bevindingen\
   -Niet alle img hebben een alt. 
   
   Slaagt voor bijna alle onderdelen na een paar korte updates zoals alt text toevoegen aan img's en een darkmode die is gebaseerd op de user system settings
