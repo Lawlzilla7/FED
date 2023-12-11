@@ -1,8 +1,7 @@
 // JavaScript Document
-console.log("hi");
+console.log("hello world!");
 
 var Burger = document.getElementById('Burger');
-// var CarousselButtonsList = document.querySelector('.CarouselButton');
 
 function OpenMenu() {
   var x = document.querySelector(".NavContent");
@@ -15,19 +14,18 @@ function OpenMenu() {
   }
 }
 
-// Attach the function to the 'change' event of the dropdown
 document.getElementById('MediaSelect').addEventListener('change', SwitchMediaContent);
 
 function SwitchMediaContent() {
-  // Get all the divs
+  // Gets all divs
   var divs = document.getElementsByClassName('Media-Content');
 
-  // Hide all the divs
+  // Hides all the divs
   for (var i = 0; i < divs.length; i++) {
     divs[i].style.display = 'none';
   }
 
-  // Show the selected div
+  // Shows the selected div
   var selectedDiv = document.getElementById('MediaSelect-' + this.value);
   if (selectedDiv) {
     selectedDiv.style.display = 'block';
@@ -35,8 +33,9 @@ function SwitchMediaContent() {
 }
 
 
-VideoFrame = document.getElementById('Special-Video');
 
+VideoFrame = document.getElementById('Special-Video');
+//Switchcase to switch iframe source when pressing a button
 function Setvideo(Url) {
   switch (Url) {
     case 'Strength':

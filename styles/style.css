@@ -140,18 +140,19 @@ nav .MenuButton {
 
 
 .NavContent li,
-.Underline,
-.UnderlineSmall {
+.NavContent li a {
 	align-self: center;
 	text-align: center;
 }
-
-.Underline {
+nav li:first-child
+{
+	align-self: center;
+	text-align: center;
 	border-bottom: white 8px solid;
 }
 
-.UnderlineSmall {
-	border-bottom: rgba(255, 255, 255, .8) 4px solid;
+.NavContent li {
+	border-bottom: rgba(255, 255, 255) 4px solid;
 }
 
 /*#endregion Nav*/
@@ -169,7 +170,6 @@ nav .MenuButton {
 	object-fit: contain;
 	width: 100%;
 	z-index: 1;
-
 }
 
 .Centered-Image {
@@ -188,6 +188,13 @@ nav .MenuButton {
 .About-Fallout {
 	display: flex;
 	flex-direction: column;
+}
+
+.PegiRating {
+	height: 8em;
+	object-fit: contain;
+	margin-bottom: 2em;
+	margin-top: 2em;
 }
 
 .About-Fallout>article, .Apps p {
@@ -219,32 +226,31 @@ nav .MenuButton {
 	font-weight: bold;
 }
 
-.BuyButton {
+.About-Fallout button {
 	background-color: #ddb724;
 	padding: 0.8em;
 	font-size: 1.5em;
 	border: none;
 }
-
-.PegiRating {
-	height: 8em;
-	object-fit: contain;
-	margin-bottom: 2em;
-	margin-top: 2em;
+.About-Fallout button:hover{
+	background-color: #ffe169;
+	cursor:pointer;
+}
+.About-Fallout button:active{
+	background-color: #d3aa04;
+	cursor:pointer;
 }
 
-.Consoles {
+
+.About-Fallout section {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 1em;
 	padding-bottom: 1em;
+	margin-left: 3em;
+	margin-right: 3em;
 }
 
-.Consoles img {
-	object-fit: contain;
-	height: 1.5em;
-	filter: invert();
-}
 
 /* #endregion About */
 
@@ -295,8 +301,8 @@ nav .MenuButton {
 
 .Slider h3,
 .Slider p,
-.Addon-Content h3,
-.Addon-Content p {
+.Addons ul h3,
+.Addons ul p {
 	color: white;
 	padding-bottom: .2em;
 	text-align: center;
@@ -341,12 +347,12 @@ nav .MenuButton {
 /* #endregion Features */
 
 /* #region Add-on-content*/
-.Addon-Content {
+.Addons ul {
 	display: flex;
 	flex-direction: column;
 }
 
-.Addon-Content li {
+.Addons ul li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -354,7 +360,7 @@ nav .MenuButton {
 	padding: 4em 1em 2em;
 }
 
-.Addon-Content img {
+.Addons ul img {
 	object-fit: contain;
 	width: 100%;
 }
