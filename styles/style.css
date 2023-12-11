@@ -58,7 +58,8 @@ iframe {
 .Special,
 .Tips,
 .Addons,
-.Features {
+.Features,
+.Apps {
 	padding: 3em 1em 2em 1em;
 }
 
@@ -189,7 +190,7 @@ nav .MenuButton {
 	flex-direction: column;
 }
 
-.About-Fallout>article {
+.About-Fallout>article, .Apps p {
 	display: flex;
 	flex-direction: column;
 	gap: 1em;
@@ -259,7 +260,7 @@ nav .MenuButton {
 }
 
 .Features h2,
-.Addons h2 {
+.Addons h2 ,.Apps h1 {
 	color: white;
 	border-top: white solid 1px;
 	border-bottom: white solid 1px;
@@ -615,13 +616,60 @@ footer li {
 	text-transform: uppercase;
 }
 
-footer img{
+footer img {
 	object-fit: contain;
 	height: 1.5em;
 	filter: invert();
 	align-self: flex-start;
 }
+
 /* #endregion footer */
+
+/* #region Apps */
+.Apps {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2em;
+}
+.Apps h1{
+	font-size: 1.3em;
+	margin-top: 2em;
+}
+.Apps section
+{
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+.Apps section img{
+	height: 15em;
+}
+.Apps h3{
+	text-align: center;
+	padding: 1em;
+}
+.Apps section div{
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+	gap: 1em;
+}
+
+.Apps section div img
+{
+	height: 3em;
+}
+/* .Apps:nth-child(1)
+	{
+		object-fit: contain;
+		height: 15em;
+		padding-left: 5%;
+		padding-right: 5%;
+		filter: invert();
+	} */
+/* #endregion Apps */
+
 
 /* #region NightMode */
 @media (prefers-color-scheme: dark) {
