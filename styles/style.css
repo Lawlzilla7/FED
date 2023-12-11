@@ -696,7 +696,7 @@ footer img {
 
 	.Media h2,
 	.Special h2,
-	.Tips h2 {
+	.Tips h2 ,.Apps h1 {
 		color: var(--color-text-white);
 		border-top: var(--color-text-white) solid 1px;
 		border-bottom: var(--color-text-white) solid 1px;
