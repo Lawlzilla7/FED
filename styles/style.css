@@ -260,7 +260,7 @@ nav .MenuButton {
 }
 
 .Features h2,
-.Addons h2 ,.Apps h1 {
+.Addons h2 {
 	color: var(--color-text-black);
 	border-top: white solid 1px;
 	border-bottom: white solid 1px;
@@ -486,7 +486,7 @@ select {
 
 
 .Special h2,
-.Tips h2 {
+.Tips h2, .Apps h1 {
 	color: rgb(0, 0, 0);
 	border-top: rgb(0, 0, 0) solid 1px;
 	border-bottom: rgb(0, 0, 0) solid 1px;
@@ -696,7 +696,7 @@ footer img {
 
 	.Media h2,
 	.Special h2,
-	.Tips h2 {
+	.Tips h2, .Apps h1 {
 		color: var(--color-text-white);
 		border-top: var(--color-text-white) solid 1px;
 		border-bottom: var(--color-text-white) solid 1px;
@@ -716,9 +716,6 @@ footer img {
 
 	.Tips img {
 		filter: invert()
-	}
-	.Apps h1{
-		color: var(--color-text-white);
 	}
 	
 }
