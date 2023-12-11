@@ -158,6 +158,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   -Niet alle img hebben een alt. 
   
   Slaagt voor bijna alle onderdelen na een paar korte updates zoals alt text toevoegen aan img's en een darkmode die is gebaseerd op de user system settings
+  de code daarvan is terug te vinden in commit(e7521e7).
 
 </details>
 
@@ -173,6 +174,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Veel werk aan de verschillende onderdelen van de media section zoals het vormgeven van de alle 2 soorten pagina's met 1 stukje voor afbeeldingen en 1 stukje voor videos en afbeelding. 
   Special section afgemaakt met een klein stukje javascript(Switch case die wisselt van src van de iframe met een id). Wat niet helemaal werkt op dit moment is het positioneren van de video over de afbeelding heen want het moest gehard code worden wat niet ideaal is maar goed genoeg voor deze situatie.
+
 
 
   ### Agenda voor meeting
@@ -209,7 +211,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Het programmeren ging best makkelijk en het ging best wel goed en ik heb ook geleerd om meer gestructureerd te programmeren ipv heel veel classes voor losse elementen.\
+  Ik vond het ook fijn om een keer niet een website te moeten ontwerpen maar iets namaken omdat meer kon focussen op het programmeren en elementen werkend krijgen.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 

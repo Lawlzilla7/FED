@@ -50,6 +50,7 @@ body {
 iframe {
 	width: 310px;
 	height: 200;
+	border: none;
 }
 
 .About-Fallout,
@@ -112,7 +113,6 @@ nav .MenuButton {
 
 .NavContent {
 	display: none;
-	grid-template: 0fr;
 	gap: 2em;
 
 	padding-left: 10%;
@@ -611,7 +611,6 @@ footer {
 footer ul {
 	padding-top: 1em;
 	display: grid;
-	grid-template: 0fr;
 	gap: 2em;
 }
 
