@@ -155,8 +155,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
   	https://docs.google.com/document/d/1dz-vEOPQcTrGItx6XxtF_ZAf8_3S5cT6nJG3h55ZKs8/edit?usp=sharing 
     Link naar Test 2
-  ### Bevindingen
-  -Niet alle img hebben een alt. 
+    <br>
+    ### Bevindingen
+    <br>
+    -Niet alle img hebben een alt. 
   
   Slaagt voor bijna alle onderdelen na een paar korte updates zoals alt text toevoegen aan img's en een darkmode die is gebaseerd op de user system settings
   de code daarvan is terug te vinden in commit(e7521e7).
@@ -220,7 +222,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Dit was lastig/Is niet gelukt:
   Ik had niet veel problemen die ik niet kon oplossen, Javascript was wel een beetje lastig maar nadat ik het voor mezelf had opgedeeld werd het een stuk makkelijker.\
-  De Media section was verreweg het lastigste omdat er zoveel content in zit want naar dat ik voor 5 verschillende sections moest maken moest het ook werkend zijn met javascript uiteindelijk heb ik het bereikt met een functie die kijkt naar veranderingen van de drop down en zet daarna de sections die over 1 komen de display mode naar block van none.\
+  De Media section was verreweg het lastigste omdat er zoveel content in zit want naar dat ik voor 5 verschillende sections moest maken moest het ook werkend zijn met javascript uiteindelijk heb ik het bereikt met een functie die kijkt naar veranderingen van de drop down en zet daarna de sections die over 1 komen de display mode naar block van none.
 
   <img src="readme-images/Javascript.png" width="375px" alt="javascript code">
 </details>
