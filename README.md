@@ -215,7 +215,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Dit ging goed/Heb ik geleerd: 
   Het programmeren ging best makkelijk en het ging best wel goed en ik heb ook geleerd om meer gestructureerd te programmeren ipv heel veel classes voor losse elementen.\
-  Ik vond het ook fijn om een keer niet een website te moeten ontwerpen maar iets namaken omdat meer kon focussen op het programmeren en elementen werkend krijgen.
+  Ik vond het ook fijn om een keer niet een website te moeten ontwerpen maar iets namaken omdat meer kon focussen op het programmeren en elementen werkend krijgen.\
+  Ik heb ook best wat verbeteringen gemaakt in opzichte van de originele website zoals in de media section heb ik de afbeeldingen en videos de gehele breedte gegeven, want op de originele pagine kan je op de afbeeldingen drukken om ze in een modal te open. Dat heb ik veranderd omdat het zo makkelijker is.
+  
   
   <img src="readme-images/Screenshot1.png" width="375px" alt="Screenshot 1">
 
