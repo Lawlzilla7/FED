@@ -261,7 +261,7 @@ nav .MenuButton {
 
 .Features h2,
 .Addons h2 ,.Apps h1 {
-	color: white;
+	color: var(--color-text-black);
 	border-top: white solid 1px;
 	border-bottom: white solid 1px;
 	padding-left: 0.5em;
@@ -635,8 +635,8 @@ footer img {
 .Apps h1{
 	font-size: 1.3em;
 	margin-top: 2em;
-	color: var(--color-text-black);
 }
+
 .Apps section
 {
 	display: flex;
@@ -696,7 +696,7 @@ footer img {
 
 	.Media h2,
 	.Special h2,
-	.Tips h2 ,.Apps h1 {
+	.Tips h2 {
 		color: var(--color-text-white);
 		border-top: var(--color-text-white) solid 1px;
 		border-bottom: var(--color-text-white) solid 1px;
