@@ -635,6 +635,7 @@ footer img {
 .Apps h1{
 	font-size: 1.3em;
 	margin-top: 2em;
+	color: var(--color-text-black);
 }
 .Apps section
 {
@@ -716,8 +717,10 @@ footer img {
 	.Tips img {
 		filter: invert()
 	}
-
-	;
+	.Apps h1{
+		color: var(--color-text-white);
+	}
+	
 }
 
 /* #endregion NightMode */
