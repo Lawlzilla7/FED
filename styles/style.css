@@ -262,8 +262,8 @@ nav .MenuButton {
 .Features h2,
 .Addons h2 {
 	color: var(--color-text-black);
-	border-top: white solid 1px;
-	border-bottom: white solid 1px;
+	border-top: white solid 2px;
+	border-bottom: white solid 2px;
 	padding-left: 0.5em;
 	font-size: 2em;
 	padding-top: 0.2em;
@@ -378,8 +378,8 @@ select {
 /* #region Media */
 .Media h2 {
 	color: rgb(0, 0, 0);
-	border-top: rgb(0, 0, 0) solid 1px;
-	border-bottom: rgb(0, 0, 0) solid 1px;
+	border-top: rgb(0, 0, 0) solid 2px;
+	border-bottom: rgb(0, 0, 0) solid 2px;
 	padding-left: 0.5em;
 	font-size: 2em;
 	padding-top: 0.2em;
@@ -488,8 +488,8 @@ select {
 .Special h2,
 .Tips h2, .Apps h1 {
 	color: rgb(0, 0, 0);
-	border-top: rgb(0, 0, 0) solid 1px;
-	border-bottom: rgb(0, 0, 0) solid 1px;
+	border-top: rgb(0, 0, 0) solid 2px;
+	border-bottom: rgb(0, 0, 0) solid 2px;
 	padding-left: 0.5em;
 	font-size: 2em;
 	padding-top: 0.2em;
@@ -630,13 +630,11 @@ footer img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	gap: 2em;
 }
 .Apps h1{
 	font-size: 1.3em;
 	margin-top: 2em;
 }
-
 .Apps section
 {
 	display: flex;
@@ -698,8 +696,8 @@ footer img {
 	.Special h2,
 	.Tips h2, .Apps h1 {
 		color: var(--color-text-white);
-		border-top: var(--color-text-white) solid 1px;
-		border-bottom: var(--color-text-white) solid 1px;
+		border-top: var(--color-text-white) solid 2px;
+		border-bottom: var(--color-text-white) solid 2px;
 	}
 
 	.Consoles img {
