@@ -261,7 +261,7 @@ nav .MenuButton {
 
 .Features h2,
 .Addons h2 {
-	color: var(--color-text-black);
+	color: var(--color-text-white);
 	border-top: white solid 2px;
 	border-bottom: white solid 2px;
 	padding-left: 0.5em;
