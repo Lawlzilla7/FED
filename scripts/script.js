@@ -18,17 +18,17 @@ document.getElementById('MediaSelect').addEventListener('change', SwitchMediaCon
 
 function SwitchMediaContent() {
   // Gets all divs
-  var divs = document.getElementsByClassName('Media-Content');
+  var Divs = document.getElementsByClassName('Media-Content');
 
   // Hides all the divs
-  for (var i = 0; i < divs.length; i++) {
-    divs[i].style.display = 'none';
+  for (var i = 0; i < Divs.length; i++) {
+    Divs[i].style.display = 'none';
   }
 
   // Shows the selected div
-  var selectedDiv = document.getElementById('MediaSelect-' + this.value);
-  if (selectedDiv) {
-    selectedDiv.style.display = 'block';
+  var SelectedDiv = document.getElementById('MediaSelect-' + this.value);
+  if (SelectedDiv) {
+    SelectedDiv.style.display = 'block';
   }
 }
 

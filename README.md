@@ -213,14 +213,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Het programmeren ging best makkelijk en het ging best wel goed en ik heb ook geleerd om meer gestructureerd te programmeren ipv heel veel classes voor losse elementen.\
   Ik vond het ook fijn om een keer niet een website te moeten ontwerpen maar iets namaken omdat meer kon focussen op het programmeren en elementen werkend krijgen.
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  
+  <img src="readme-images/Screenshot.jpg" width="375px" alt="Screenshot 1">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik had niet veel problemen die ik niet kon oplossen, Javascript was wel een beetje lastig maar nadat ik het voor mezelf had opgedeeld werd het een stuk makkelijker.\
+  De Media section was verreweg het lastigste omdat er zoveel content in zit want naar dat ik voor 5 verschillende sections moest maken moest het ook werkend zijn met javascript uiteindelijk heb ik het bereikt met een functie die kijkt naar veranderingen van de drop down en zet daarna de sections die over 1 komen de display mode naar block van none.\
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/javascript.jpg" width="375px" alt="javascript code">
 </details>
 
 
