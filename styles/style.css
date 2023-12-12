@@ -164,7 +164,7 @@ nav li:first-child
 	left: 0;
 }
 
-.Big-Image-Full {
+.Image-Container img:first-of-type {
 	position: relative;
 
 	object-fit: contain;
@@ -172,7 +172,7 @@ nav li:first-child
 	z-index: 1;
 }
 
-.Centered-Image {
+.Image-Container img:last-of-type {
 	position: absolute;
 	object-fit: cover;
 	width: 60%;
@@ -190,7 +190,7 @@ nav li:first-child
 	flex-direction: column;
 }
 
-.PegiRating {
+.About-Fallout > img:last-child{
 	height: 8em;
 	object-fit: contain;
 	margin-bottom: 2em;
@@ -242,7 +242,7 @@ nav li:first-child
 }
 
 
-.About-Fallout section {
+.About-Fallout figure {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 1em;
@@ -698,7 +698,7 @@ footer img {
 		border-bottom: var(--color-text-white) solid 2px;
 	}
 
-	.Consoles img {
+	.About-Fallout section {
 		filter: none;
 	}
 

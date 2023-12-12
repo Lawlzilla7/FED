@@ -225,6 +225,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit was lastig/Is niet gelukt:
   Ik had niet veel problemen die ik niet kon oplossen, Javascript was wel een beetje lastig maar nadat ik het voor mezelf had opgedeeld werd het een stuk makkelijker.\
   De Media section was verreweg het lastigste omdat er zoveel content in zit want naar dat ik voor 5 verschillende sections moest maken moest het ook werkend zijn met javascript uiteindelijk heb ik het bereikt met een functie die kijkt naar veranderingen van de drop down en zet daarna de sections die over 1 komen de display mode naar block van none.
+  Het was ook lastig om zonder classes of ids the werken omdat het je dan meer moet denken over hoe ik mijn code opdeel en schrijf. 
 
   <img src="readme-images/Javascript.png" width="375px" alt="javascript code">
 </details>
