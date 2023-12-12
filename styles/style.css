@@ -49,7 +49,7 @@ body {
 
 iframe {
 	width: 310px;
-	height: 200;
+	height: 200px;
 	border: none;
 }
 
@@ -144,8 +144,8 @@ nav .MenuButton {
 	align-self: center;
 	text-align: center;
 }
-nav li:first-child
-{
+
+nav li:first-child {
 	align-self: center;
 	text-align: center;
 	border-bottom: white 8px solid;
@@ -190,14 +190,15 @@ nav li:first-child
 	flex-direction: column;
 }
 
-.About-Fallout > img:last-child{
+.About-Fallout>img:last-child {
 	height: 8em;
 	object-fit: contain;
 	margin-bottom: 2em;
 	margin-top: 2em;
 }
 
-.About-Fallout>article, .Apps p {
+.About-Fallout>article,
+.Apps p {
 	display: flex;
 	flex-direction: column;
 	gap: 1em;
@@ -232,13 +233,15 @@ nav li:first-child
 	font-size: 1.5em;
 	border: none;
 }
-.About-Fallout button:hover{
+
+.About-Fallout button:hover {
 	background-color: #ffe169;
-	cursor:pointer;
+	cursor: pointer;
 }
-.About-Fallout button:active{
+
+.About-Fallout button:active {
 	background-color: #d3aa04;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 
@@ -493,7 +496,8 @@ select {
 
 
 .Special h2,
-.Tips h2, .Apps h1 {
+.Tips h2,
+.Apps h1 {
 	color: rgb(0, 0, 0);
 	border-top: rgb(0, 0, 0) solid 2px;
 	border-bottom: rgb(0, 0, 0) solid 2px;
@@ -637,32 +641,35 @@ footer img {
 	flex-direction: column;
 	justify-content: center;
 }
-.Apps h1{
+
+.Apps h1 {
 	font-size: 1.3em;
 	margin-top: 2em;
 }
-.Apps section
-{
+
+.Apps section {
 	display: flex;
 	flex-direction: column;
 	gap: 1em;
 }
-.Apps section img{
+
+.Apps section img {
 	height: 15em;
 }
-.Apps h3{
+
+.Apps h3 {
 	text-align: center;
 	padding: 1em;
 }
-.Apps section ul{
+
+.Apps section ul {
 	display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+	flex-flow: row wrap;
+	justify-content: center;
 	gap: 1em;
 }
 
-.Apps li img
-{
+.Apps li img {
 	height: 3em;
 }
 
@@ -693,7 +700,8 @@ footer img {
 
 	.Media h2,
 	.Special h2,
-	.Tips h2, .Apps h1 {
+	.Tips h2,
+	.Apps h1 {
 		color: var(--color-text-white);
 		border-top: var(--color-text-white) solid 2px;
 		border-bottom: var(--color-text-white) solid 2px;
@@ -714,7 +722,7 @@ footer img {
 	.Tips img {
 		filter: invert()
 	}
-	
+
 }
 
 /* #endregion NightMode */
